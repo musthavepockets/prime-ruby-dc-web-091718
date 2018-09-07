@@ -1,3 +1,5 @@
+require 'pry'
+
 def prime?(i)
   if i <= 1 || ((i.even? == true) && i != 2)
     false
