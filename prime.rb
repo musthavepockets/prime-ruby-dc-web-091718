@@ -12,6 +12,7 @@ def prime?(i)
     array.each do |number| 
       new_array.push(i % number)
     end
+    binding.pry
       if new_array.include?(0) == true
           false 
       else
