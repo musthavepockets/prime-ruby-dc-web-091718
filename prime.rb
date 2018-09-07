@@ -1,6 +1,7 @@
 require 'pry'
 
 def prime?(i)
+ binding.pry
   if i <= 1 || ((i.even? == true) && i != 2)
     false
   elsif
@@ -12,7 +13,7 @@ def prime?(i)
     array.each do |number| 
       new_array.push(i % number)
     end
-    binding.pry
+    
       if new_array.include?(0) == true
         return false 
       else
