@@ -14,9 +14,9 @@ def prime?(i)
     end
     binding.pry
       if new_array.include?(0) == true
-          false 
+        return false 
       else
-        true
+        return true
       end
   end  
 end
