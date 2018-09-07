@@ -5,7 +5,7 @@ def prime?(i)
   if i <= 1 || ((i.even? == true) && i != 2)
     false
   elsif
-    (i = 3) || (i = 2) 
+    (i == 3) || (i == 2) 
     true
   elsif
     array = (2..(i/2)).to_a
